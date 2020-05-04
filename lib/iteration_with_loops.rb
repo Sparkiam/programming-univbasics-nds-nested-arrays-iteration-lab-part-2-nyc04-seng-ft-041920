@@ -1,12 +1,11 @@
 
 def find_min_in_nested_arrays(array)
+  small_min = []
   x = 0 
   while x < array.length 
-  # smallest_num = 
-  array[x].min(array[x].length) 
-    # array[x]
+    array[x].min(array[x].length) 
     x += 1
-  
+  small_min << x
   end   
     
 #     small_temp = []
