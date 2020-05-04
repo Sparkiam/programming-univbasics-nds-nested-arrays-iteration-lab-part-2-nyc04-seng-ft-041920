@@ -1,19 +1,20 @@
 
 def find_min_in_nested_arrays(array_of_daily_temperatures)
-    small_temp = []
-    x = 0
-  while x < array_of_daily_temperatures.length 
-      y = 0
-      while y < array_of_daily_temperatures[x].length do 
-        small_temp << y   
-        smallest_num = array_of_daily_temperatures[x][y] 
-        if array_of_daily_temperatures[x][y].length = smallest_num.min
-        p 
-        end
-    y += 1
-      end
-  end 
-  x += 1
+  array_of_daily_temps[x] x += 1 array_of_daily_temps[x].min
+#     small_temp = []
+#     x = 0
+#   while x < array_of_daily_temperatures.length 
+#       y = 0
+#       while y < array_of_daily_temperatures[x].length do 
+#         small_temp << y   
+#         smallest_num = array_of_daily_temperatures[x][y] 
+#         if array_of_daily_temperatures[x][y].length = smallest_num.min
+#         p 
+#         end
+#     y += 1
+#       end
+#   end 
+  # x += 1
 end
 
 
