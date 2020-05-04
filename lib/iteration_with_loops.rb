@@ -3,9 +3,10 @@ def find_min_in_nested_arrays(array)
   small_min = []
   x = 0 
   while x < array.length 
+   small_min << array[x].min  
     x += 1
     p array.class 
-    small_min << array[x].min 
+    
   end   
     
     return small_min 
