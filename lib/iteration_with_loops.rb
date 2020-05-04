@@ -1,8 +1,8 @@
 
 def find_min_in_nested_arrays(array_of_daily_temperatures)
-    array_of_daily_temps[x]
+    array_of_daily_temperatures[x]
     x += 1
-    array_of_daily_temps[x].min
+    array_of_daily_temperatures[x].min
     
     
 #     small_temp = []
