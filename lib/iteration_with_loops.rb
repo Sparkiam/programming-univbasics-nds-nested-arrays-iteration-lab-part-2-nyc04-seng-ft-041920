@@ -2,6 +2,7 @@
 def find_min_in_nested_arrays(array)
   x = 0 
   while x < array.length 
+  smallest_num = array[x][y] 
     array[x]
     x += 1
     array[x].min
