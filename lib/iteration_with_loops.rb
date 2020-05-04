@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(array)
   while x < array.length 
     array[x].min(array[x].length) 
     x += 1
-  small_min << x
+  small_min << array[x].min(array[x].length) 
   end   
     
 #     small_temp = []
