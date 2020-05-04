@@ -9,7 +9,7 @@ def find_min_in_nested_arrays(array)
   end   
     
     return small_min 
-  
+  end 
     
 #     small_temp = []
 #     x = 0
