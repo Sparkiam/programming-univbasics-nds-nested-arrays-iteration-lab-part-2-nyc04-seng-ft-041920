@@ -1,5 +1,5 @@
 
-def find_min_in_nested_arrays(array_of_daily_temperatures)
+def find_min_in_nested_arrays(array)
   x = 0 
   while x < array_of_daily_temperatures.length 
   array_of_daily_temperatures[x]
