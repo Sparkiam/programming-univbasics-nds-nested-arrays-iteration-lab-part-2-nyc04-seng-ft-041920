@@ -1,15 +1,3 @@
-#   	x = 0 # This is going to count where we are in the array.
- 
-# # 	while x < src.length # Amount of elements in the array
-# # 		y = 0 
-# #     while y < src[x].length 
-# #       if src[x][y].even?
-# #         puts src[x][y]
-# #       end 
-# # 			y += 1 #y = y + 1
-# # 		end
-# # 		x += 1 # x++  
-# # 	end
 
 def find_min_in_nested_arrays(array_of_daily_temperatures)
     small_temp = []
